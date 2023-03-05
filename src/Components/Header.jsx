@@ -49,7 +49,7 @@ const Header = () => {
         </div>
 
         <div className='relative mt-5 md:hidden'>
-          <input type='text' className='w-full bg-zinc-200 p-2 rounded-md' id='search' placeholder='Buscar libros autores, ect.'/>
+          <input type='text' className='w-full bg-zinc-200 p-2 rounded-md' id='search' placeholder='Buscar libros autores, etc.'/>
           <BsSearch className='absolute top-3 right-4'/>
         </div>
 
