@@ -120,11 +120,11 @@ const BookDescription = () => {
 
           <div className="md:col-span-6 col-span-12">
             <div className="flex items-center justify-between">
-              <h2 id="nameBook" className="text-3xl">
+              <h2 id="nameBook" className="text-[1.5rem]">
                 {libroDatos.name}
               </h2>
               <p id="price" className="text-3xl">
-                <span className="text-md">$ {libroDatos.price}  </span> 
+                <span className="text-[1.5rem]">$ {libroDatos.price}  </span> 
               </p>
             </div>
 
