@@ -20,8 +20,9 @@ const PersonalData = () => {
             <GoBack />
             <div className='px-5 my-10'>
                 <div className='h-[110px] w-[110px] rounded-full mx-auto bg-slate-200 relative mb-12'>
-                    <div className='rounded-full bg-slate-300 inline-block p-2 absolute bottom-1 right-1'><BsPencil /></div>
+                    
                     {/*<img src={'/image'} alt={'user profile picture'} width={110} height={110} />*/}
+                    <img className="rounded-full" src={'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt={'user profile picture'} width={110} height={110} />
                 </div>
                 {userData.map((user, id) => {
                     return <UserDataLinks title={user.title} data={user.data} key={id} />

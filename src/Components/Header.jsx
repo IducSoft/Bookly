@@ -89,13 +89,14 @@ const Header = () => {
             }>Descuentos</NavLink>
         </div>
 
-        
+      
 
         <div className='w-full pt-6'>
           <NavLink to={"/register"}
           style={({ isActive }) =>
               isActive ? activeStyle : undefined
-          }>Sign up</NavLink>
+          }>Registrarse
+          </NavLink>
         </div>
 
       </div>
